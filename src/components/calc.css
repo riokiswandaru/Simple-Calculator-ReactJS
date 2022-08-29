@@ -1,0 +1,46 @@
+.main {
+    margin: 80px auto auto auto;
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    background-color: #B1B1B1;
+    width: 500px;
+}
+
+button {
+    width: 130px;
+    height: 100px;
+    background-color: #949494;
+    font-size: large;
+    font-weight: bold;
+    color: #555555;
+    border-style: none;
+}
+
+button.btnHasil {
+    width: 130px;
+    height: 200px;
+    background-color: #FBE969;
+}
+
+button.btnNol {
+    width: 265px;
+    height: 100px;
+}
+
+button:hover,
+button.btnHasil:hover {
+    background-color: darkgrey;
+}
+
+.result {
+    width: 500px;
+    height: 80px;
+    background-color: #565656;
+    color: #ACACAC;
+    padding: 5px 20px 40px 20px;
+    text-align: right;
+    font-size: 40px;
+}
